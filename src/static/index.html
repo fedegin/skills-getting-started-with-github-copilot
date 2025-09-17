@@ -16,7 +16,19 @@
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
-          <!-- Activities will be loaded here -->
+          <!-- Template for activity cards -->
+          <template id="activity-template">
+            <div class="activity-card">
+              <h4></h4>
+              <p class="description"></p>
+              <p class="schedule"></p>
+              <p class="availability"></p>
+              <div class="participants-section">
+                <h5>Current Participants</h5>
+                <ul class="participants-list"></ul>
+              </div>
+            </div>
+          </template>
           <p>Loading activities...</p>
         </div>
       </section>
